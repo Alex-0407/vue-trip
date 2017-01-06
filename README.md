@@ -19,9 +19,9 @@
 - 首页
 - ![首页](./demo/home.png)
 - 手机的网址请扫描下方的二维码
-- ![手机网址](./demo/phone.png)
+- ![手机网址](./demo/phone.jpg)
 - 已经用cordova打包成安卓app，app下载请扫描下方二维码
-- ![手机网址](./demo/phone_apk.png)
+- ![手机网址](./demo/phone_apk.jpg)
 
 
 ## 开始
