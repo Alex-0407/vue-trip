@@ -15,7 +15,9 @@
 
 ## 查看例子
 
-- [demo例子](http://www.wenye123.com/#/)
+- [demo例子](http://http://vue-trip.wenye123.com//#/)
+- 首页
+- ![首页](./demo/home.png)
 - 手机的网址请扫描下方的二维码
 - ![手机网址](./demo/phone.png)
 - 已经用cordova打包成安卓app，app下载请扫描下方二维码
@@ -27,20 +29,21 @@
  - 复制或下载本项目到你的仓库
  - 进入你本地的文件夹，然后安装依赖
  - 进入到`/src/vuex/store.js`将state中的apikey换成你自己的百度apikey ([百度apistore](http://apistore.baidu.com/))
+ - ![apikey修改](./demo/apikey.jpg)
 
-``` bash
+``` javascript
 npm install
 ```
 
 ## 查看效果
-``` bash
+``` javascript
 npm run dev
 
 ```
 
 ## 打包
 
-``` bash
+``` javascript
 npm run build
 
 ```

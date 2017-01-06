@@ -48,7 +48,7 @@ export default {
 	methods : {
 		createdGetData(){
 			//这个比较特殊，通过一层PHP
-			this.$http.get('http://wenye123.com/api/index.php',{
+			this.$http.get('http://vue-trip.wenye123.com/api/index.php',{
 				params : {
 					url : this.url
 				},
