@@ -68,7 +68,7 @@ export default {
 		createdGetData(){
 			this.$store.dispatch({
 				type : 'getData',
-				url : 'http://apis.baidu.com/txapi/weixin/wxhot?num=10&rand=1&word=天气&page=1&src=人民日报',
+				url : 'http://vue-trip.wenye123.com/api/article_list.php',
 				callBack :(data)=>{
 					if( data.code==200 && data.msg=='success'){
 						//将数据填充到列表中

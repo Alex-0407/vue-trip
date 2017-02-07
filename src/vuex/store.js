@@ -7,7 +7,9 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
 	state: { 
-		apikey : '换成您自己的百度apikey',
+		//apikey没用了
+		//apikey : 'b02d8de7a570d4318fadc8c481eee41e',
+
 		//是否显示侧栏
 		slideShow : false,
 		animateIn : 'slideInRight',
@@ -59,10 +61,11 @@ export default new Vuex.Store({
 		//获取数据
 		getData(context,payload){
 			Vue.http.get(payload.url,{
-				headers : {
-					apikey : context.state.apikey
-					//apikey : ''
-				},
+				//apikey没用了
+				// headers : {
+				// 	apikey : context.state.apikey
+				// 	//apikey : ''
+				// },
 				timeout : 3000,
 				before : function(){
 					//打开加载数据框
@@ -72,7 +75,7 @@ export default new Vuex.Store({
 					});
 				}
 			}).then(function(response){
-				var data =response.body;
+				var data =JSON.parse(response.body);
 				//关闭加载数据框
 				Indicator.close();
 				//执行回调函数

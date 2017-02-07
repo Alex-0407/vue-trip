@@ -83,7 +83,7 @@ export default {
 			//获取文章页天气文章
 			this.$store.dispatch({
 				type : 'getData',
-				url : 'http://apis.baidu.com/txapi/weixin/wxhot?num=10&rand=1&word='+this.word+'&page=1&src=人民日报',
+				url : 'http://vue-trip.wenye123.com/api/article_list.php',
 				callBack :(data)=>{
 					if( data.code==200 && data.msg=='success'){
 						//将数据填充到列表中
@@ -96,7 +96,7 @@ export default {
 		loadTop(id) {
 			this.$store.dispatch({
 				type : 'getData',
-				url : 'http://apis.baidu.com/txapi/weixin/wxhot?num=10&rand=1&word='+this.word+'&page=1&src=人民日报',
+				url : 'http://vue-trip.wenye123.com/api/article_list.php',
 				callBack :(data)=>{
 					if( data.code==200 && data.msg=='success'){
 						this.newsList.shift(...data.newslist);
@@ -109,7 +109,7 @@ export default {
 		loadBottom(id) {
 			this.$store.dispatch({
 				type : 'getData',
-				url : 'http://apis.baidu.com/txapi/weixin/wxhot?num=10&rand=1&word='+this.word+'&page=1&src=人民日报',
+				url : 'http://vue-trip.wenye123.com/api/article_list.php',
 				callBack :(data)=>{
 					if( data.code==200 && data.msg=='success'){
 						if(data.length == 0){

@@ -47,8 +47,7 @@ export default {
 	},
 	methods : {
 		createdGetData(){
-			//这个比较特殊，通过一层PHP
-			this.$http.get('http://vue-trip.wenye123.com/api/index.php',{
+			this.$http.get('http://vue-trip.wenye123.com/api/article.php',{
 				params : {
 					url : this.url
 				},
@@ -79,5 +78,7 @@ export default {
 </script>
 
 <style>
-	
+	#article img {
+		max-width: 100%;
+	}
 </style>

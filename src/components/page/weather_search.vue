@@ -84,9 +84,8 @@ export default {
 		searchFn(){
 			this.$store.dispatch({
 				type : 'getData',
-				url : 'http://apis.baidu.com/apistore/weatherservice/citylist?cityname=' + this.cityName,
+				url : 'http://vue-trip.wenye123.com/api/city_name.php',
 				callBack :(data)=>{
-					var data = JSON.parse(data);
 					if( data.errNum==0 && data.errMsg=='success'){
 						this.cityList = data.retData;
 					}
