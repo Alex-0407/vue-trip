@@ -22,7 +22,7 @@
 
 ## 查看例子
 
-- [demo例子](http://http://vue-trip.wenye123.com//#/)
+- [demo例子](http://vue-trip.wenye123.com//#/)
 - 首页
 - ![首页](./demo/home.png)
 - 手机的网址请扫描下方的二维码
