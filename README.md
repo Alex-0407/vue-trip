@@ -6,7 +6,7 @@
 * * *
 
 ## 很不幸，，百度家的api不再免费了，项目中的数据都显示不出来了，这个项目玩完了，，，大家都散了吧。
-![流氓](./demo/liumang.png)
+> ![不幸](./demo/liumang.png)
 
 * * *
 
@@ -26,11 +26,11 @@
 
 - [demo例子](http://vue-trip.wenye123.com//#/)
 - 首页
-- ![首页](./demo/home.png)
+> ![首页](./demo/home.png)
 - 手机的网址请扫描下方的二维码
-- ![手机网址](./demo/phone.png)
+> ![手机网址](./demo/phone.png)
 - 已经用cordova打包成安卓app，app下载请扫描下方二维码
-- ![手机网址](./demo/phone_apk.png)
+> ![手机网址](./demo/phone_apk.png)
 
 
 ## 开始
@@ -38,7 +38,7 @@
  - 复制或下载本项目到你的仓库
  - 进入你本地的文件夹，然后安装依赖
  - 进入到`/src/vuex/store.js`将state中的apikey换成你自己的百度apikey ([百度apistore](http://apistore.baidu.com/))
- - ![apikey修改](./demo/apikey.jpg)
+> ![apikey修改](./demo/apikey.jpg)
 
 ``` javascript
 npm install
