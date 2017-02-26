@@ -40,6 +40,7 @@
 - 复制或下载本项目到你的仓库
 - 进入你本地的文件夹，然后安装依赖
 - 进入到`/src/vuex/store.js`将state中的apikey换成你自己的百度apikey ([百度apistore](http://apistore.baidu.com/))
+
 > ![apikey修改](./demo/apikey.jpg)
 
 ``` javascript
