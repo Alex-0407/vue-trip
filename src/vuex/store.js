@@ -75,7 +75,13 @@ export default new Vuex.Store({
 					});
 				}
 			}).then(function(response){
-				var data =JSON.parse(response.body);
+				// 判断是不是json对象
+				var data =null;
+				if(typeof response.body =='object'){
+					data =response.body;
+				} else {
+					data =JSON.parse(response.body);
+				}
 				//关闭加载数据框
 				Indicator.close();
 				//执行回调函数
